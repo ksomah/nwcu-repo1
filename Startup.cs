@@ -32,7 +32,7 @@ namespace nwcu_repo1
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("NWCU App Services Chalk Talk! We are having great time!");
                 });
             });
         }
